@@ -5,6 +5,33 @@
     <title>title of your page goes here</title>
   </head>
   <body>
-    Dinosaurs
+    <header>
+      <h1>Title of Page</h1>
+    </header>
+    <arcticle id="datastory">
+      <section id="personal-digital">
+        <h2>Personal Digital Data</h2>
+        <img src="http://via.placeholder.com/350x150" alt="A placeholder image." />
+        <p>
+          Here is a placeholder paragraph. Here is an example of an internal
+          link, where I reference <a href="#personal-data">something else</a> 
+          on the page by using an ID attribute to navigate to that particular
+          element located on the page.
+        </p>
+      </section>
+        <h2>Social Digital Data</h2>
+        <p>Here is a placeholder paragraph</p>
+      <section id="social-digital">
+      </section>
+    </artcile>
+    <footer id="resources">
+      <ul>
+        <li>
+          <a href="http://www.resourceurl.info/useful-info.html" target="_blank">
+            Resource 1</a>
+        <li>Resource 2</li>
+      </ul>
+    </footer>
+          Dinosaurs
   </body>
 </html>
